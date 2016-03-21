@@ -45,7 +45,8 @@ for x in alpha:
 print(freq)
 print(alpha.index("a"))
 for x in string:
-    freq[alpha.index(x)]+=1
+    if x in alpha:
+       freq[alpha.index(x)]+=1
 print(freq)
     
     
