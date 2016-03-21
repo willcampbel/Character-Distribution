@@ -43,8 +43,5 @@ freq=[]
 for x in alpha:
     freq.append("")
 print(freq)
+print(list)
 print(alpha.index("a"))
-"""
-for x in list:
-    freq[alpha.index(x)]=freq[alpha.index(x)]+1
-print(freq)"""
