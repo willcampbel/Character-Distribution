@@ -41,9 +41,10 @@ list = str.split(string)
 alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 freq=[]
 for x in alpha:
-    freq.append(x)
+    freq.append("")
 print(freq)
-
+print(alpha.index("a"))
+"""
 for x in list:
     freq[alpha.index(x)]=freq[alpha.index(x)]+1
-print(freq)
+print(freq)"""
