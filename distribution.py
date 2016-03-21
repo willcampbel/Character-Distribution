@@ -41,7 +41,7 @@ list = str.split(string)
 alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 freq=[]
 for x in len(alpha)+1:
-    freq.append(0)
+    freq.append()
 print(freq)
 
 for x in list:
