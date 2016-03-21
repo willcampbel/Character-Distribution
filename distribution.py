@@ -37,7 +37,7 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 string = input("Please enter a string of text (the bigger the better): ").lower()
-list = str.split(string) 
+list = list(string) 
 alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 freq=[]
 for x in alpha:
