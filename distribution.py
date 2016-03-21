@@ -42,12 +42,13 @@ alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","
 freq=[]
 for x in alpha:
     freq.append("")
-print(freq)
-print(alpha.index("a"))
 for x in string:
     if x in alpha:
        freq[alpha.index(x)]+=1
-print(freq)
+       
+       
+
+
     
     
     
