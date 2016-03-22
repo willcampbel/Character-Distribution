@@ -43,7 +43,7 @@ freq=[]
 for x in alpha:
     freq.append(0)
 for x in list:
-    if x in list:
+    if x in alpha:
        freq[alpha.index(x)]=freq[alpha.index(x)]+1
        
 print(freq)
