@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Will Campbell
-Credit: Ethan Adner
+Credit: Dave Wilson, Ethan Adner
 
 Assignment:
 
@@ -46,7 +46,16 @@ for x in string:
     if x in alpha:
        freq[alpha.index(x)]+=1
        
-       
+print(freq)
+a=0
+for x in freq:
+    if len(x)>a:
+        a=len(x)
+for x in freq:
+    if len(x) == a:
+        print(alpha[freq.index(x)]*a)
+        
+    
 
 
     
