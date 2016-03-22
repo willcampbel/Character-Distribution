@@ -53,6 +53,9 @@ while(a<len(freq)):
     print(freq[a]*alpha[a], end="")
     a=a+1
     
+tup = list(zip(freq,alpha))
+print(tup)
+    
     
     
     
