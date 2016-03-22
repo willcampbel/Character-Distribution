@@ -47,9 +47,11 @@ for x in list:
        freq[alpha.index(x)]=freq[alpha.index(x)]+1
        
 print(freq)
+
 a=0
-
-
+while(a<len(freq)):
+    print(freq[a]*alpha[a], end="")
+    a=a+1
     
     
     
