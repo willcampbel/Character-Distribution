@@ -49,12 +49,6 @@ for x in list:
 
 a=0
 
-for x in freq:
-    if len(x) == a:
-        print(alpha[freq.index(x)]*a)
-        
-    
-
 
     
     
