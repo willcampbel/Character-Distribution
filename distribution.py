@@ -41,7 +41,7 @@ list = list(string)
 alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 freq=[]
 for x in alpha:
-    freq.append("")
+    freq.append(0)
 for x in string:
     if x in list:
        freq[int(alpha.index(x))]=freq[int(alpha.index(x))]+1
