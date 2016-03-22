@@ -42,9 +42,9 @@ alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","
 freq=[]
 for x in alpha:
     freq.append(0)
-for x in string:
+for x in list:
     if x in list:
-       freq[int(alpha.index(x))]=freq[int(alpha.index(x))]+1
+       freq[alpha.index(x)]=freq[alpha.index(x)]+1
        
 print(freq)
 a=0
