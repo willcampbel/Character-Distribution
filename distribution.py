@@ -46,7 +46,7 @@ for x in list:
     if x in alpha:
        freq[alpha.index(x)]=freq[alpha.index(x)]+1
        
-
+print(freq)
 a=0
 
 
