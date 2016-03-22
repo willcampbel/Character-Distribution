@@ -46,11 +46,9 @@ for x in list:
     if x in alpha:
        freq[alpha.index(x)]=freq[alpha.index(x)]+1
        
-print(freq)
+
 a=0
-for x in freq:
-    if len(x)>a:
-        a=len(x)
+
 for x in freq:
     if len(x) == a:
         print(alpha[freq.index(x)]*a)
