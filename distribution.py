@@ -40,13 +40,12 @@ string = input("Please enter a string of text (the bigger the better): ").lower(
 list1 = list(string) 
 alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 freq=[]
+
 for x in alpha:
     freq.append(0)
-for x in list:
+for x in list1:
     if x in alpha:
        freq[alpha.index(x)]=freq[alpha.index(x)]+1
-       
-print(freq)
 
 a=0
 while(a<len(freq)):
@@ -54,7 +53,8 @@ while(a<len(freq)):
     a=a+1
     
 combo = list(zip(freq,alpha))
-print(combo)
+combo=sorted(combo, key=lambda tup: -tup[0] , tup[1])
+print(combo.reverse())
     
     
     
