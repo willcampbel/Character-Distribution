@@ -53,7 +53,7 @@ while(a<len(freq)):
     a=a+1
     
 combo = list(zip(freq,alpha))
-combo=sorted(combo, key=lambda tup: -tup[0] , tup[1])
+combo=sorted(combo, key=lambda tup:( -tup[0] , tup[1]))
 print(combo.reverse())
     
     
