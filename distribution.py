@@ -58,6 +58,10 @@ combo=list(combo)
 
 
 print(combo)
+z=0
+while(z<len(combo)):
+    print(combo[z][0]*combo[z][1])
+    z=z+1
 
     
     
