@@ -58,7 +58,7 @@ combo=list(combo)
 combo=combo.reverse()
 
 print(combo)
-    
+return(combo)
     
     
     
