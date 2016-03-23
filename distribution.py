@@ -57,7 +57,7 @@ combo=sorted(combo, key=lambda tup:( -tup[0] , tup[1]))
 combo=list(combo)
 
 
-print(combo)
+
 z=0
 while(z<len(combo)):
     print(combo[z][0]*combo[z][1])
