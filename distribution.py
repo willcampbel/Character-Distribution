@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Will Campbell
-Credit: Dave Wilson, Ethan Adner
+Credit: Dave Wilson, Ethan Adner, http://stackoverflow.com/questions/3121979/how-to-sort-list-tuple-of-lists-tuples
 
 Assignment:
 
@@ -55,8 +55,8 @@ while(a<len(freq)):
 combo = list(zip(freq,alpha))
 combo=sorted(combo, key=lambda tup:( -tup[0] , tup[1]))
 combo=list(combo)
-combo=combo.reverse()
-combo=list(combo)
+
+
 print(combo)
 
     
