@@ -56,7 +56,7 @@ combo = list(zip(freq,alpha))
 combo=sorted(combo, key=lambda tup:( -tup[0] , tup[1]))
 combo=list(combo)
 combo=combo.reverse()
-    
+combo=list(combo)
 print(combo)
     
     
