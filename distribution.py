@@ -49,7 +49,7 @@ for x in list1:
 
 a=0
 while(a<len(freq)):
-    print(freq[a]*alpha[a], end="")
+    #print(freq[a]*alpha[a], end="")
     a=a+1
     
 combo = list(zip(freq,alpha))
