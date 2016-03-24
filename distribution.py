@@ -60,7 +60,7 @@ combo=list(combo)
 
 z=0
 while(z<len(combo)):
-    print(combo[z][0]*combo[z][1])
+    print("The distribution of characters in" +string+ " is:" combo[z][0]*combo[z][1])
     z=z+1
 
     
